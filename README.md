@@ -2,8 +2,8 @@
 
 Python project analyzing 10 years of Canadian equity and ETF data. Covers risk measurement, portfolio optimization, Monte Carlo simulation, and stress testing. Outputs an interactive HTML dashboard and Tableau-ready CSVs.
 
-**Live dashboard:** [View here](https://your-username.github.io/canadian-portfolio-risk/portfolio_dashboard.html)
-*(replace with your GitHub Pages URL after deploying)*
+**Live dashboard:** [View here](https://matiasbluem.github.io/canadian-portfolio-risk/portfolio_dashboard.html)
+
 
 ---
 
