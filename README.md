@@ -71,7 +71,7 @@ canadian-portfolio-risk/
 **Option 2 -- Local**
 
 ```bash
-git clone https://github.com/your-username/canadian-portfolio-risk.git
+git clone https://github.com/matiasbluem/canadian-portfolio-risk.git
 cd canadian-portfolio-risk
 pip install -r requirements.txt
 jupyter notebook Canadian_Portfolio_Risk_Analytics.ipynb
@@ -152,17 +152,3 @@ jupyter>=1.0.0
 - Monte Carlo fan chart (P5, P25, P50, P75, P95)
 - Stress test scenario cards
 
-To host it on GitHub Pages: push the file to your repo, enable Pages under Settings, and the dashboard URL will be `https://your-username.github.io/canadian-portfolio-risk/portfolio_dashboard.html`.
-
----
-
-## Limitations and extensions
-
-This project makes several simplifying assumptions worth noting in interviews:
-
-1. **Normal returns** -- Monte Carlo uses a normal distribution. Real returns have negative skew and excess kurtosis. A Student's t-distribution would better capture tail events.
-2. **Static weights** -- the optimized portfolio is held at fixed weights. A real portfolio needs periodic rebalancing as weights drift.
-3. **No transaction costs** -- optimization ignores trading costs, which would reduce realized Sharpe ratio, especially for smaller positions.
-4. **Backward-looking** -- all inputs (return, covariance) are estimated from historical data. Past correlations break down in crises.
-
-Possible extensions: factor decomposition (Fama-French), rolling optimization windows, CVaR (Conditional VaR) instead of VaR, and a rebalancing simulation.
