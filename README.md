@@ -1,9 +1,16 @@
 # Canadian Portfolio Risk Analytics
 
-Python project analyzing 10 years of Canadian equity and ETF data. Covers risk measurement, portfolio optimization, Monte Carlo simulation, and stress testing. Outputs an interactive HTML dashboard and Tableau-ready CSVs.
+Quantitative risk analysis of a 10-asset Canadian portfolio using 10 years of market data. Computes VaR, max drawdown, Monte Carlo simulation, and MPT optimization, then outputs an
+interactive browser-based dashboard.
 
 **Live dashboard:** [View here](https://matiasbluem.github.io/canadian-portfolio-risk/portfolio_dashboard.html)
 
+---
+
+## About
+
+Built as a portfolio project to demonstrate quantitative finance and data analytics skills. Context: Business Management student at Toronto Metropolitan University targeting analytics 
+and finance roles in the GTA.
 
 ---
 
@@ -124,19 +131,6 @@ Applies one-time return shocks to the historical return series and recalculates 
 | SciPy | KDE for VaR distribution chart |
 | Matplotlib | Charts inside the notebook |
 | Chart.js | Interactive HTML dashboard |
-
----
-
-## Requirements
-
-```
-yfinance>=0.2.36
-pandas>=2.0.0
-numpy>=1.24.0
-matplotlib>=3.7.0
-scipy>=1.10.0
-jupyter>=1.0.0
-```
 
 ---
 
